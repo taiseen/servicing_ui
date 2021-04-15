@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Review</title>
+    <title>Service List</title>
     <link rel="stylesheet" href="../css/common_sidebar.css">
-    <link rel="stylesheet" href="../css/client_css/3_review.css">
+    <link rel="stylesheet" href="../css/client_css/2_service_list.css">
 </head>
 
 <body>
@@ -32,7 +32,7 @@
                     </li>
                     <li>
                         <img src="../img/client/review.png" class="client_link_icon" alt="" />
-                        <a href="3_Review.html">Review </a>
+                        <a href="3_Review.html">Review</a>
                     </li>
                     <li>
                         <img src="../img/client/logout.png" class="client_link_icon" alt="" />
@@ -47,18 +47,35 @@
         <main class="heading_area">
 
             <div class="heading_title">
-                <h2>Review</h2>
+                <h2>Service List</h2>
                 <h3 class="client_name">User Name</h3>
             </div>
 
             <!-- Another Section -->
-            <section class="interaction_area review_area">
+            <section class="interaction_area service_container ">
 
-                <input type="text" placeholder="Your name" required class="review_input"/>
-                <input type="text" placeholder="Company Name" required class="review_input"/>
-                <textarea name="" id="" rows="10" cols="40" class="review_input">Description</textarea>
-                <button class="btn_submit" type="submit">Submit</button>
+                <div class="service_box">
+                    <div class="service_status">
+                        <img src="../img/home.png" alt="">
+                        <button class="status pending">Pending</button>
+                    </div>
+                    <div class="service_info">
+                        <h4>Laptop Servicing</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem animi corporis dolorem, dolore itaque doloribus.</p>
+                    </div>
+                </div>
 
+
+                <div class="service_box">
+                    <div class="service_status">
+                        <img src="../img/home_lone.png" alt="">
+                        <button class="status done">Done</button>
+                    </div>
+                    <div class="service_info">
+                        <h4>Laptop Servicing</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem animi corporis dolorem, dolore itaque doloribus.</p>
+                    </div>
+                </div>
 
             </section>
         </main>

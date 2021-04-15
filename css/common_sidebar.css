@@ -23,14 +23,6 @@ header {
     position      : relative;
 }
 
-.home_link {
-    position       : absolute;
-    width          : 95%;
-    display        : flex;
-    justify-content: center;
-    bottom         : 3em;
-}
-
 .logo {
     margin    : 1em 0;
     text-align: center;
@@ -43,8 +35,12 @@ header {
 /* ######################## */
 /* Menu Section Style Start */
 /* ######################## */
+.admin_link_icon {
+    width       : 10%;
+    margin-right: .5em;
+}
 
-.link_icon {
+.client_link_icon {
     width       : 15%;
     margin-right: .5em;
 }
@@ -86,17 +82,20 @@ li:hover {
     font-size      : 1.4em;
 }
 
-.heading_title h3 {
+.admin_name {
+    color: tomato
+}
+
+.client_name {
     color: green
 }
 
+
+
+/* ################################################ */
+/* Every Page Common Area, But Components Different */
+/* ################################################ */
 .interaction_area {
     background-color: #F4F7FC;
     height          : 90vh;
-}
-
-@media (max-width: 1080px) {
-    .home_link {
-        bottom: -4em;
-    }
 }
