@@ -52,9 +52,37 @@
             </div>
 
             <section class="interaction_area">
-                
-                
 
+                <form action="" class="user_service_area">
+
+                    <input type="text" placeholder="Your Name" required class="user_input" />
+                    <input type="text" placeholder="Your Email" required class="user_input" />
+                    <input type="text" placeholder="Service Name" required class="user_input" />
+
+                    <p>Pay with</p>
+                    <div class="payment_method">
+                        <input type="radio" id="credit_card" name="payment_method" value="credit_card">
+                        <label for="credit_card">
+                            <img src="../img/client/credit_card.png" alt="" />Credit Card
+                        </label>
+
+                        <input type="radio" id="paypal" name="payment_method" value="paypal">
+                        <label for="paypal">
+                            <img src="../img/client/paypal.png" alt="" />Paypal
+                        </label>
+                    </div>
+
+                    <input type="text" placeholder="Card Number" required class="user_input" />
+                    <div class="user_card">
+                        <input type="text" placeholder="MM/YY" required class="user_input" />
+                        <input type="text" placeholder="CVC" required class="user_input" />
+                    </div>
+
+                    <div class="user_payment_amount">
+                        <p>Your Service Charged will be <strong>$1000</strong></p>
+                        <button class="btn_submit fl_right" type="submit">Pay</button>
+                    </div>
+                </form>
 
 
             </section>
