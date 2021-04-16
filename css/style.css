@@ -122,11 +122,12 @@ ul li a:hover,
     font-size    : 4em;
     line-height  : .9em;
     margin-bottom: .2em;
+    transition   : .2s ease;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 600px) {
     .title_box h1 {
-        font-size: 3.2em;
+        font-size: 3em;
     }
 }
 
